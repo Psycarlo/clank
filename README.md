@@ -143,3 +143,11 @@ clank | c <command> <params>
 - [ ] Meme Generator
 
 ## Tech Stack
+
+- [Nodejs](https://nodejs.org/en/)
+- [Expressjs](https://expressjs.com/)
+- [Discordjs](https://discord.js.org/#/)
+
+## Architecture
+
+[Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) by Uncle Bob
