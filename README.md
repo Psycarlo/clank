@@ -17,6 +17,7 @@
 ## Development Requirements
 
 - Node.js: [Current](https://nodejs.org/en/)
+- Yarn: [Current](https://classic.yarnpkg.com/lang/en/docs/install)
 - (Optional) [Visual Studio Code](https://code.visualstudio.com/)
 
 ## Recommended VSC Setup
