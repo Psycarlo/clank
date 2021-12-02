@@ -1,0 +1,10 @@
+node_modules
+dist
+coverage
+
+.vscode
+.eslintcache
+
+.env
+.env.development
+.env.production

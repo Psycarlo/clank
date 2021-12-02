@@ -1,0 +1,25 @@
+{
+  "name": "clank",
+  "version": "1.0.0",
+  "description": "Clank is the discord bot that will make you go nuts",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "lint": "eslint ./src --ext .js,.json",
+    "lint:fix": "eslint ./src --ext .js,.json --fix",
+    "prettier": "prettier --config .prettierrc --write ./src/**/*.{json,js}"
+  },
+  "repository": "https://github.com/Psycarlo/clank.git",
+  "author": "SMILE Discord Team",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.0"
+  }
+}
