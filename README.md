@@ -1,7 +1,7 @@
 <h1 align="center">
   TODO Logo
   <br>
-    Clank will make you go nuts
+    Clank is the discord bot that will make you go nuts
   <br>
   <br>
 </h1>
