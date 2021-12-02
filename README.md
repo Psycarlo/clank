@@ -46,6 +46,44 @@ Default Formatter: Prettier
 
 ## Getting Started
 
+### Setup
+
+1. Clone this repository
+
+2. Navigate to the folder using the terminal
+
+```
+cd clank
+```
+
+3. Install dependencies
+
+```
+yarn
+```
+
+4. Add .env files - Check .env.example
+
+.env
+.env.development
+.env.production
+
+5. Run in development mode
+
+```
+yarn dev
+```
+
+## Commands Format
+
+```
+clank | c <command> <params>
+```
+
 ## Features
+
+- [ ] Play Music - by link or name (have music queue)
+- [ ] Stop Music
+- [ ] Meme Generator
 
 ## Tech Stack
