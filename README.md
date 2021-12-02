@@ -68,10 +68,66 @@ yarn
 .env.development
 .env.production
 
-5. Run in development mode
+## Run
+
+Run in development mode
 
 ```
 yarn dev
+```
+
+Run in production mode
+
+```
+yarn start
+```
+
+### Build
+
+```
+yarn build
+```
+
+### Tests
+
+Run unit tests
+
+```
+yarn test
+```
+
+Run tests using watch
+
+```
+yarn test:watch
+```
+
+Run tests and output coverage folder
+
+```
+yarn test:coverage
+```
+
+### Lint & Format
+
+Print ESLint errors and warnings
+
+```
+yarn lint
+```
+
+Fix ESLint errors and warnings
+
+```
+yarn lint:fix
+```
+
+Note: You may need to fix some by hand
+
+Fix Prettier errors and warnings
+
+```
+yarn format
 ```
 
 ## Commands Format
