@@ -5,9 +5,21 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
+    "prepare": "husky install",
     "lint": "eslint ./src --ext .js,.json",
     "lint:fix": "eslint ./src --ext .js,.json --fix",
     "prettier": "prettier --config .prettierrc --write ./src/**/*.{json,js}"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "./src/**/*.{json,js}": [
+      "yarn lint:fix",
+      "yarn prettier"
+    ]
   },
   "repository": "https://github.com/Psycarlo/clank.git",
   "author": "SMILE Discord Team",
@@ -19,6 +31,8 @@
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.2",
     "nodemon": "^2.0.15",
     "prettier": "^2.5.0"
   }
