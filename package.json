@@ -4,7 +4,13 @@
   "description": "Clank is the discord bot that will make you go nuts",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js",
+    "build": "yarn clean && babel src -d dist",
+    "clean": "rimraf dist",
+    "dev": "cross-env NODE_ENV=development nodemon src/index.js",
+    "start": "yarn build && cd dist && cross-env NODE_ENV=production node index.js",
+    "test": "jest src",
+    "test:watch": "jest src --watch",
+    "test:coverage": "jest src --coverage",
     "prepare": "husky install",
     "lint": "eslint ./src --ext .js,.json",
     "lint:fix": "eslint ./src --ext .js,.json --fix",
@@ -25,15 +31,24 @@
   "author": "SMILE Discord Team",
   "license": "MIT",
   "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-jest": "^27.4.2",
+    "cross-env": "^7.0.3",
     "eslint": "^8.3.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jest": "^25.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "husky": "^7.0.4",
+    "jest": "^27.4.3",
     "lint-staged": "^12.1.2",
     "nodemon": "^2.0.15",
-    "prettier": "^2.5.0"
+    "prettier": "^2.5.0",
+    "rimraf": "^3.0.2"
   }
 }

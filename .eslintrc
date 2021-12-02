@@ -1,8 +1,9 @@
 {
   "env": {
     "node": true,
-    "es2021": true
+    "es2021": true,
+    "jest": true
   },
-  "extends": ["airbnb-base", "prettier"],
-  "plugins": ["prettier", "simple-import-sort"]
+  "extends": ["airbnb-base", "prettier", "plugin:jest/recommended"],
+  "plugins": ["prettier", "jest", "simple-import-sort"]
 }
