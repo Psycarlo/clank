@@ -141,6 +141,9 @@ clank | c <command> <params>
 - [ ] Play Music - by link or name (have music queue)
 - [ ] Stop Music
 - [ ] Meme Generator
+- [ ] Print Bitcoin Price & Data
+- [ ] Coin Flip
+- [ ] Dice Roll
 
 ## Tech Stack
 
