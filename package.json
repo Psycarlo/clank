@@ -14,7 +14,7 @@
     "prepare": "husky install",
     "lint": "eslint ./src --ext .js,.json",
     "lint:fix": "eslint ./src --ext .js,.json --fix",
-    "prettier": "prettier --config .prettierrc --write ./src/**/*.{json,js}"
+    "format": "prettier --config .prettierrc --write ./src/**/*.{json,js}"
   },
   "husky": {
     "hooks": {
