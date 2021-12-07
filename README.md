@@ -8,7 +8,7 @@
 
 <p align="center">
   <br>
-  TODO: CI Banner
+  <img src="https://app.travis-ci.com/Psycarlo/clank.svg?branch=main" alt="travis">
   <br>
   <br>
   Made with :heart: by SMILE Discord Team
@@ -24,8 +24,11 @@
 
 ### Extensions
 
+- [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
 - [npm](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script)
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+- [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
+- [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 - [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
