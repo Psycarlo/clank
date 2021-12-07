@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - 16
+branches:
+  only:
+    - main
+jobs:
+  include:
+    - stage: 'Tests'
+      name: 'Unit Tests'
+      script: yarn test:ci

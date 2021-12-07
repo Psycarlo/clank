@@ -11,6 +11,7 @@
     "test": "jest src",
     "test:watch": "jest src --watch",
     "test:coverage": "jest src --coverage",
+    "test:ci": "jest src --runInBand",
     "prepare": "husky install",
     "lint": "eslint ./src --ext .js,.json",
     "lint:fix": "eslint ./src --ext .js,.json --fix",
