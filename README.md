@@ -64,9 +64,11 @@ yarn
 
 4. Add .env files - Check .env.example
 
+```
 .env
 .env.development
 .env.production
+```
 
 ## Run
 
