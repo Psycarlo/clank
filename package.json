@@ -28,7 +28,7 @@
     ]
   },
   "repository": "https://github.com/Psycarlo/clank.git",
-  "author": "SMILE Discord Team",
+  "author": "SMILE Team",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.16.0",
