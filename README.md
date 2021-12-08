@@ -11,7 +11,7 @@
   <img src="https://app.travis-ci.com/Psycarlo/clank.svg?branch=main" alt="travis">
   <br>
   <br>
-  Made with :heart: by SMILE Discord Team
+  Made with :heart: by SMILE Team
 </p>
 
 ## Development Requirements
